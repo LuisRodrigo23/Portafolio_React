@@ -1,17 +1,17 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Navbar from './components/Navbar/Navbar'
-import PageInd from './page/PageInd'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import PageInd from './page/HomePage'
+import React from 'react'
+import HomePage from './page/HomePage'
+import Proyectos from './components/Proyects/Proyectos'
 
 function App() {
-
   return (
-    <div>
-      <Navbar></Navbar>
-      <PageInd></PageInd>
-    </div>
-
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage></HomePage>} />
+        <Route path="/pr" element={<Proyectos></Proyectos>} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
