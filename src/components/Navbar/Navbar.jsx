@@ -21,6 +21,7 @@ const Navbar = () => {
                                     <title>Menu</title>
                                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                                 </svg>
+                                <h1 className='text-gray-700'>Hola</h1>
                             </button>
                         </div>
                         {/* Aquí añadimos una clase condicional para mostrar u ocultar el menú */}
@@ -28,10 +29,10 @@ const Navbar = () => {
 
                             <div className="text-lg lg:flex-grow mt-2 animated jackinthebox xl:mx-8">
                                 <a href="/"
-                                    className="block lg:inline-block text-md font-bold  text-orange-500  sm:hover:border-indigo-400  hover:text-orange-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                                    className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-orange-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                     INICIO
                                 </a>
-                                <a href={"/pr"}
+                                <a href={"/proyects"}
                                     className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-orange-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                     MIS PROYECTOS
                                 </a>

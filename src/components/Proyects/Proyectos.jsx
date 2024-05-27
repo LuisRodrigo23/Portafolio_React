@@ -27,11 +27,8 @@ function Proyectos() {
                         </p>
                     </div>
                 </div>
-                <br />
-                <br />
             </section>
-
-            <Cards></Cards>
+            <Cards />
         </>
     );
 
