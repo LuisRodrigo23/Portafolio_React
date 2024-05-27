@@ -11,14 +11,14 @@ function Proyectos() {
             by <a href="https://www.creative-tim.com/" target="_blank" rel="noopener noreferrer">Creative Tim</a>.
             <br /><br />
             <section>
-                <div className="relative w-full h-96">
+                <div className="relative w-full h-[50vh]">
                     <img
                         className="absolute h-full w-full object-cover object-center"
-                        src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="nature"
                     />
-                    <div className="absolute inset-0 h-full w-full bg-black/50"></div>
-                    <div className="relative pt-28 text-center">
+                    <div className="absolute inset-0 h-full w-full bg-black/40"></div>
+                    <div className="relative pt-[11rem] text-center">
                         <h2 className="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-white mb-4 text-3xl lg:text-4xl">
                             MIS PROYECTOS
                         </h2>
@@ -30,6 +30,8 @@ function Proyectos() {
                 <br />
                 <br />
             </section>
+
+            <Cards></Cards>
         </>
     );
 
