@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <header className='fixed top-0 w-full bg-white shadow-lg z-10'>
-            <div className="py-5 px-2 lg:mx-4 xl:mx-12">
+            <div className="py-7 px-2 lg:mx-4 xl:mx-12">
                 <div className="">
                     <nav className="flex items-center justify-between flex-wrap">
                         <div className="block lg:hidden">
@@ -21,10 +21,9 @@ const Navbar = () => {
                                     <title>Menu</title>
                                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                                 </svg>
-                                <h1 className='text-gray-700'>Hola</h1>
+                                <h1 className='text-gray-700 font-bold ml-[30px] text-xl'>Mi portafolio</h1>
                             </button>
                         </div>
-                        {/* Aquí añadimos una clase condicional para mostrar u ocultar el menú */}
                         <div id="main-nav" className={`w-full flex-grow lg:flex items-center lg:w-auto ${isMenuOpen ? 'block' : 'hidden'}`}>
 
                             <div className="text-lg lg:flex-grow mt-2 animated jackinthebox xl:mx-8">
