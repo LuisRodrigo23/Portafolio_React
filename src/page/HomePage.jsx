@@ -15,13 +15,13 @@ const HomePage = () => {
                         Frontend <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">Developer</span>
                     </h1>
                     <p className="mx-[2rem] mt-4 sm:mt-7 mb-8 sm:mb-11 text-base sm:text-lg font-light text-[#C5C5C5] max-w-lg">
-                        Hola mi nombre es Luis Rodrigo tengo 17 años de edad actualmente curso mi tercer y ultimo año de educacion superior
+                        Hola mi nombre es Luis Rodrigo tengo 17 años de edad actualmente curso mi tercer y ultimo año de educacion media
                         en el centro educativo tecnico laboral Kinal soy un joven apacionado por la tecnologia, es de mas mencionar de que yo mismo
-                        programe este pequeño proyecto con ayuda de varias tecnologias y framework como JavaScript, React y GitHub.
+                        desarrolle este pequeño proyecto con ayuda de varias tecnologias y frameworks como React, JavaScript, Tailwind y GitHub.
                     </p>
                     <div className="text-center">
-                        <a href="https://www.instagram.com/luis_roodrigoo/">
-                            <button className="text-gray-800 inline-block px-6 py-3 mr-4 sm:mr-8 bg-white rounded-full font-semibold text-lg sm:text-xl">Contactame</button>
+                        <a href="../src/documents/CV_LuisRodrigo.pdf" download={"Mi CV-Luis"}>
+                            <button className="text-gray-800 inline-block px-6 py-3 mr-4 sm:mr-8 bg-white rounded-full font-semibold text-lg sm:text-xl">Ver mi CV</button>
                         </a>
                     </div>
                 </div>

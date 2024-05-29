@@ -52,7 +52,7 @@ const Cards = () => {
                                 <div className="flex items-center">
                                     <img
                                         className="w-10 h-10 rounded-full mr-4"
-                                        src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU=w240-h480-rw"
+                                        src="../src/img/imgLogoGit.jpeg"
                                         alt="avatar"
                                     />
                                     <a

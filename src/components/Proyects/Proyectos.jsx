@@ -4,12 +4,6 @@ import Cards from './Cards'
 function Proyectos() {
     return (
         <>
-            <br />
-            <a href="https://www.material-tailwind.com/magic-ai" target="_blank" rel="noopener noreferrer">
-                Generated with <b>Magic AI Blocks</b>
-            </a>
-            by <a href="https://www.creative-tim.com/" target="_blank" rel="noopener noreferrer">Creative Tim</a>.
-            <br /><br />
             <section>
                 <div className="relative w-full h-[50vh]">
                     <img
@@ -18,7 +12,7 @@ function Proyectos() {
                         alt="nature"
                     />
                     <div className="absolute inset-0 h-full w-full bg-black/40"></div>
-                    <div className="relative pt-[11rem] text-center">
+                    <div className="relative pt-[16rem] text-center">
                         <h2 className="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-white mb-4 text-3xl lg:text-4xl">
                             MIS PROYECTOS
                         </h2>

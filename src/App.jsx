@@ -3,6 +3,7 @@ import PageInd from './page/HomePage'
 import React from 'react'
 import HomePage from './page/HomePage'
 import Proyectos from './components/Proyects/Proyectos'
+import SobreMi from './components/SobreMi/SobreMi'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage></HomePage>} />
         <Route path="/proyects" element={<Proyectos></Proyectos>} />
+        <Route path="/sobreMi" element={<SobreMi></SobreMi>} />
       </Routes>
     </BrowserRouter>
   )
