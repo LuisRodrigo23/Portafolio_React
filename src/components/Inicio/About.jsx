@@ -6,7 +6,6 @@ const About = () => {
                 <h2 className="text-center text-4xl font-bold pt-10 sm:pt-0 pb-10">Un poco de mi</h2>
                 <div className="sm:grid grid-cols-2">
 
-
                     <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
                         <h3 className="text-xl mb-5 font-bold">Tecnologia</h3>
                         <p className="leading-10 text-gray-500 text-justify">
