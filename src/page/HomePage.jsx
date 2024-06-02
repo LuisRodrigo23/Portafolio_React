@@ -4,8 +4,7 @@ import About from "../components/Inicio/About";
 const HomePage = () => {
     return (
         <>
-            <br />
-            <div className="flex flex-col justify-center items-center h-[97vh] bg-[#161513]">
+            <div className="flex flex-col justify-center items-center h-[100vh] bg-[#161513]">
                 <div className="mx-auto text-center">
                     <div className="mx-auto mb-[1rem] sm:mb-[0rem] mt-12 sm:mt-20 h-[16rem] sm:h-[16rem] w-[16rem] sm:w-[16rem] overflow-hidden rounded-full bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">
                         <img src="../src/img/imgDev.png" alt="" className="h-[110%] w-[101%] object-cover" />

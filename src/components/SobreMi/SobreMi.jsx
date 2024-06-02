@@ -6,6 +6,7 @@ function SobreMi() {
     return (
         <>
             <br />
+            <br />
             <br /><section className="bg-white dark:bg-gray-900 mb-[65px]">
                 <br />
                 <section className="">
@@ -83,19 +84,22 @@ function SobreMi() {
                                 </div>
                             </div>
                         </div>
-                        <br />
-                        <div className='sm:mt-[30px] sm:ml-[-4%] ml-[-10%] mt-[20px] w-full m-auto'>
-                            <div className="ml-[20%] mt-[auto]">
-                                <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mt-[25px] rounded-md hover:shadow-md">
-                                    <h3 className="text-xl mb-5 font-bold">Programacion</h3>
-                                    <p className=" text-gray-500 text-justify">
-                                        Hola soy Luis tengo 17 años de edad
-                                    </p>
-                                    <div className="mt-5">
-                                        <img className="w-full h-auto rounded-md" src="https://www.ceupe.com/images/easyblog_articles/3934/b2ap3_thumbnail_lenguaje-de-programacin.jpg" alt="Graphic Design" />
+
+                        <div className="max-[1000px]:hidden">
+                            <div className='sm:mt-[35px] sm:ml-[15%] ml-[-10%] mt-[20px] w-full '>
+                                <div className="ml-[20%] mt-[auto]">
+                                    <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mt-[25px] rounded-md hover:shadow-md">
+                                        <h3 className="text-xl mb-5 font-bold">Programacion</h3>
+                                        <p className=" text-gray-500 text-justify">
+                                            Hola soy Luis tengo 17 años de edad
+                                        </p>
+                                        <div className="mt-5">
+                                            <img className="w-full h-auto rounded-md" src="https://www.ceupe.com/images/easyblog_articles/3934/b2ap3_thumbnail_lenguaje-de-programacin.jpg" alt="Graphic Design" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                     <hr className="border-gray-200 my-12 dark:border-gray-700" />
