@@ -3,8 +3,17 @@ import React from 'react'
 function Gallery() {
     return (
         <>
-            <section className="grid min-h-screen p-8 place-items-center">
-                <div className='mb-[2.25rem] mt-[-1%] min-[300px]:mb-[4rem] min-[300px]:mt-[-3%] mx-px text-wrap font-bold text-4xl'>HOBBIS </div>
+            <section className="grid min-h-screen p-8 place-items-center mt-[-1.5rem]">
+                <div className='mb-[-3rem] mt-[-3%] max-[1050px]:mb-[4rem] max-[1050px]:mt-[-2%] text-wrap font-bold 
+                text-4xl w-full text-center max-[700px]:text-2xl'>ALGUNOS DE MIS HOBIIS
+
+                    <div className="mx-0">
+                        <span className="inline-block w-[15rem] h-1 rounded-full bg-blue-500 max-[700px]:w-[10rem]"></span>
+                        <span className="inline-block w-3 h-1 ml-1 rounded-full bg-blue-500"></span>
+                        <span className="inline-block w-1 h-1 ml-1 rounded-full bg-blue-500"></span>
+                    </div>
+                </div>
+
                 <div className="container grid grid-cols-1 gap-8 my-auto lg:grid-cols-2">
                     <div className="relative flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none grid gap-2 item sm:grid-cols-2">
                         <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0">

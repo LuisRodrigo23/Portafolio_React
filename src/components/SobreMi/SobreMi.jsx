@@ -6,7 +6,6 @@ function SobreMi() {
     return (
         <>
             <br />
-            <br />
             <br /><section className="bg-white dark:bg-gray-900 mb-[65px]">
                 <br />
                 <section className="">
@@ -85,17 +84,21 @@ function SobreMi() {
                             </div>
                         </div>
 
-                        <div className="max-[1000px]:hidden">
-                            <div className='sm:mt-[35px] sm:ml-[15%] ml-[-10%] mt-[20px] w-full '>
-                                <div className="ml-[20%] mt-[auto]">
-                                    <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mt-[25px] rounded-md hover:shadow-md">
-                                        <h3 className="text-xl mb-5 font-bold">Programacion</h3>
-                                        <p className=" text-gray-500 text-justify">
-                                            Hola soy Luis tengo 17 años de edad
-                                        </p>
-                                        <div className="mt-5">
-                                            <img className="w-full h-auto rounded-md" src="https://www.ceupe.com/images/easyblog_articles/3934/b2ap3_thumbnail_lenguaje-de-programacin.jpg" alt="Graphic Design" />
+                        <div className="max-[1200px]:hidden">
+                            <div className='mt-[20px] w-full max-[1450px]:ml-[15%] ml-[40%]'>
+                                <div className="mt-[auto]">
+                                    <div className="sm:p-[3rem]  bg-gray-50 sm:me-4 mt-[25px] rounded-[1rem] hover:shadow-md 
+                                    h-[42vh] w-[50vh] m-0 max-[1600px]:h-[36vh] max-[1600px]:w-[46vh]">
+                                        <div className='w-[full] h-full '>
+                                            <h3 className="text-3xl mb-5 font-bold ">Programacion</h3>
+                                            <p className=" text-gray-500 text-justify text-1xl">
+                                                Hola soy Luis tengo 17 años de edad
+                                            </p>
+                                            <div className="mt-5">
+                                                <img className="w-full h-auto rounded-md" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrEOsLp5EgdmsIBtlHAiyfhTx8mjYT2E9xnQ&s" alt="Graphic Design" />
+                                            </div>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
