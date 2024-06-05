@@ -6,7 +6,7 @@ function SobreMi() {
     return (
         <>
             <br />
-            <br /><section className="bg-white dark:bg-gray-900 mb-[65px]">
+            <br /><section className="bg-white dark:bg-[#161513] mb-[65px]">
                 <br />
                 <section className="">
                     <div className="container mx-auto">
