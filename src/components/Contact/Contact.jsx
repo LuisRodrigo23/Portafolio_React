@@ -26,7 +26,7 @@ function Contact() {
                 <div className="-mt-16 mb-8 px-8">
                     <div className="container mx-auto">
                         <div className="py-12 max-[650px]:flex-row  justify-center rounded-xl border border-white bg-white shadow-md shadow-black/5 saturate-200 mx-[-4px]">
-                            <div className="my-8 grid gap-6 px-[15rem] ">
+                            <div className="my-8 grid gap-6 px-[15rem] max-[650px]:px-[2rem]">
                                 <div className="flex items-center gap-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="h-6 w-6">
                                         <path
@@ -72,9 +72,9 @@ function Contact() {
                                         Open Support Ticket
                                     </p>
                                 </div>
-                                <div className='ml-[33rem] mt-[-12rem] rounded-full'>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gM84dpm2XFysrvdAYBsycUQPC8F3fBXwhw&s" 
-                                    className='rounded-full' alt="" />
+                                <div className='ml-[33rem] mt-[-14rem] rounded-[80px]'>
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gM84dpm2XFysrvdAYBsycUQPC8F3fBXwhw&s"
+                                        className='rounded-[35px] w-[80%] h-[90%]' alt="" />
 
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ function Contact() {
                                     <div className="text-center ">
                                         <button className="middle none center rounded-lg bg-blue-300 py-3.5 px-7 text-base font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all
                                          hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none
-                                          disabled:opacity-50 disabled:shadow-none mt-[65px] max-[650px]:mx-[35px]">
+                                          disabled:opacity-50 disabled:shadow-none mt-[5px] max-[650px]:mx-[35px]">
                                             Send Message
                                         </button>
                                     </div>
