@@ -5,14 +5,15 @@ import Footer from '../Footer/Footer';
 function Contact() {
     return (
         <>
-            <section className="bg-white dark:bg-gray-900 max-[550px]:h-[99vh] min-[550px]:mt-[100px]">
+            <section className="bg-white dark:bg-gray-900 max-[550px]:h-[100vh] min-[550px]:mt-[100px]">
                 <div className="container px-6 py-12 mx-auto">
                     <div>
                         <p className="text-[35px] text-blue-500 dark:text-blue-400 font-bold text-center">¡Contactame!</p>
                         <br />
                         <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Contactame</h1>
 
-                        <p className="mt-3 text-gray-500 dark:text-gray-400">Our friendly team is always here to chat.</p>
+                        <p className="mt-3 text-gray-500 dark:text-gray-400">En esta seccion podras encontrar diferentes
+                            medios donde me podran contactar.</p>
                     </div>
 
                     <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
@@ -26,8 +27,9 @@ function Contact() {
                             </span>
 
                             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
-                            <p className="mt-2 text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
-                            <p className="mt-2 text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+                            <p className="mt-2 text-blue-500 dark:text-blue-400">lvaquin-2022300@kinal.edu.gt</p>
+                            <p className="mt-2 text-blue-500 dark:text-blue-400">luisrodrigo23@gmail.com</p>
+
                         </div>
 
                         <div>
@@ -40,9 +42,9 @@ function Contact() {
                                 </svg>
                             </span>
 
-                            <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Office</h2>
-                            <p className="mt-2 text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
-                            <p className="mt-2 text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+                            <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Ubicacion</h2>
+                            <p className="mt-2 text-blue-500 dark:text-blue-400">6Av zona7 Col Landivar dc Guatemala</p>
+                            <p className="mt-2 text-blue-500 dark:text-blue-400">4ta calle zona3 Santo Domingo Sacatepequez</p>
                         </div>
 
                         <div>
@@ -55,8 +57,7 @@ function Contact() {
                             </span>
 
                             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Phone</h2>
-                            <p className="mt-2 text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
-                            <p className="mt-2 text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+                            <p className="mt-2 text-blue-500 dark:text-blue-400">(502) 4724-2803</p>
                         </div>
                     </div>
                 </div>

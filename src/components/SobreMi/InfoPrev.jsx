@@ -6,27 +6,24 @@ function InfoPrev() {
         <div className="relative overflow-hidden">
             {/* Gradients */}
             <div aria-hidden="true" className="flex absolute -top-96 start-1/2 transform -translate-x-1/2">
-                <div className="bg-gradient-to-tl from-blue-50 via-blue-100 to-blue-50 blur-3xl w-[90rem] h-[50rem] rounded-fulls origin-top-left "></div>
+                <div className="bg-gradient-to-tl  via-blue-100 to-blue-50 blur-3xl w-[90rem] h-[50rem] rounded-fulls origin-top-left "></div>
             </div>
             {/* End Gradients */}
 
             <div className="relative z-10">
                 <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
                     <div className="max-w-2xl text-center mx-auto">
-                        <p className="inline-block text-sm font-medium bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text">
-                            Nano: A vision for 2024
-                        </p>
 
                         {/* Title */}
                         <div className="mt-5 max-w-2xl">
                             <h1 className="block font-semibold text-gray-800 text-4xl md:text-5xl lg:text-6xl ">
-                                The Intuitive Web Solutions
+                                Ah que aspiro
                             </h1>
                         </div>
                         {/* End Title */}
 
                         <div className="mt-5 max-w-3xl">
-                            <p className="text-lg text-gray-600 dark:text-gray-400">
+                            <p className="text-lg text-gray-600 ">
                                 Preline UI is an open-source set of prebuilt UI components, ready-to-use examples and Figma design system based on the utility-first Tailwind CSS framework.
                             </p>
                         </div>

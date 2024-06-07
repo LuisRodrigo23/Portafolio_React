@@ -4,10 +4,11 @@ import { GithubIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } fro
 
 function Networks() {
     return (
-        <section className="flex items-center justify-center w-full h-[70vh] py-12 md:py-24 lg:py-32 bg-gray-100 ">
+        <section className="flex items-center justify-center w-full h-[45vh] py-12 md:py-24 lg:py-32 bg-white mb-[40px]
+        max-[650px]:h-[60vh]">
             <div className="container max-w-5xl px-4 md:px-6 ">
                 <div className="space-y-4 text-center">
-                    <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Sígueme en mis redes sociales</h2>
+                    <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight"> Mis redes sociales</h2>
                     <p className="mx-auto max-w-[600px] bg-gray-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
                         Mantente conectado y entérate de todas mis últimas novedades.
                     </p>

@@ -34,9 +34,9 @@ function Tecnologys() {
                 <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
                         <a href="https://www.facebook.com/photo?fbid=428224962637815&set=pcb.428225019304476">PRIMARIA <span aria-hidden="true">&rarr; Escuela Oficial U.M J.M</span></a>
-                        <a href="https://www.paginasamarillas.com.gt/empresas/instituto-mixto-de-educacion-basica-por-cooperativa-santo-domingo-xenacoj/santo-domingo-xenacoj-32449209?ad=51305742">BASICOS <span aria-hidden="true">&rarr; Instituto Imebco-Idedco</span></a>
+                        <a href="https://www.paginasamarillas.com.gt/empresas/instituto-mixto-de-educacion-basica-por-cooperativa-santo-domingo-xenacoj/santo-domingo-xenacoj-32449209?ad=51305742">BASICOS <span aria-hidden="true">&rarr;Colegio Santo Domingo XS</span></a>
                         <a href="https://www.facebook.com/kinal.gt">DIVERSIFICADO<span aria-hidden="true">&rarr; Fundacion Kinal</span></a>
-                        <a href="#">Universidad<span aria-hidden="true">&rarr; Proceso...</span></a>
+                        <a href="#">UNIVERSIDAD<span aria-hidden="true">&rarr; Proceso...</span></a>
                     </div><br />
 
                     <br /> <br /> <br /> <br />
