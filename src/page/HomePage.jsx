@@ -1,5 +1,6 @@
 import Footer from "../components/Footer/Footer";
 import About from "../components/Inicio/About";
+import "../components/StyleTransition.css"
 
 const HomePage = () => {
     return (
