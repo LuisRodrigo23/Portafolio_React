@@ -29,32 +29,41 @@ function Tecnologys() {
             </div>
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:mx-0">
-                    <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h2>
-                    <p className="mt-6 text-lg leading-8 text-gray-300">Just work with us no matter what there is no spam call 911 on us if we spam you.</p>
+                    <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Educación</h2>
                 </div>
                 <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-                        <a href="#">Open roles <span aria-hidden="true">&rarr;</span></a>
-                        <a href="#">Internship program <span aria-hidden="true">&rarr;</span></a>
-                        <a href="#">Our values <span aria-hidden="true">&rarr;</span></a>
-                        <a href="#">Meet our leadership <span aria-hidden="true">&rarr;</span></a>
-                    </div>
+                        <a href="https://www.facebook.com/photo?fbid=428224962637815&set=pcb.428225019304476">PRIMARIA <span aria-hidden="true">&rarr; Escuela Oficial U.M J.M</span></a>
+                        <a href="https://www.paginasamarillas.com.gt/empresas/instituto-mixto-de-educacion-basica-por-cooperativa-santo-domingo-xenacoj/santo-domingo-xenacoj-32449209?ad=51305742">BASICOS <span aria-hidden="true">&rarr; Instituto Imebco-Idedco</span></a>
+                        <a href="https://www.facebook.com/kinal.gt">DIVERSIFICADO<span aria-hidden="true">&rarr; Fundacion Kinal</span></a>
+                        <a href="#">Universidad<span aria-hidden="true">&rarr; Proceso...</span></a>
+                    </div><br />
+
+                    <br /> <br /> <br /> <br />
+                    <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Tecnologias que manejo</h2>
                     <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
                         <div className="flex flex-col-reverse">
-                            <dt className="text-base leading-7 text-gray-300">Offices worldwide</dt>
-                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">12</dd>
+                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">React</dd>
                         </div>
                         <div className="flex flex-col-reverse">
-                            <dt className="text-base leading-7 text-gray-300">Full-time colleagues</dt>
-                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">300+</dd>
+                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">MySQL</dd>
                         </div>
                         <div className="flex flex-col-reverse">
-                            <dt className="text-base leading-7 text-gray-300">Hours per week</dt>
-                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">40</dd>
+                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">JavaScript</dd>
                         </div>
                         <div className="flex flex-col-reverse">
-                            <dt className="text-base leading-7 text-gray-300">Paid time off</dt>
-                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">Unlimited</dd>
+                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">Html-Css</dd>
+                        </div>
+                        <div className="flex flex-col-reverse">
+                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">GitHub</dd>
+
+                        </div>
+                        <div className="flex flex-col-reverse">
+                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">Tailwind</dd>
+                        </div>
+                        <div className="flex flex-col-reverse">
+                            <dt className="text-base leading-7 text-gray-300"></dt>
+                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">Java</dd>
                         </div>
                     </dl>
                 </div>

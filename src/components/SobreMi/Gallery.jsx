@@ -19,20 +19,18 @@ function Gallery() {
                     <div className="relative flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none grid gap-2 item sm:grid-cols-2">
                         <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0">
                             <img
-                                src="https://bucket.material-tailwind.com/magic-ai/06b38f84f9669f766048c469ce861b81880378273a11ae9badaedfc32868ef44.jpg"
+                                src="../src/img/imgFt1.jpg"
                                 alt="Revolutionizing Our Production Process"
                                 className="object-cover w-full h-full"
                             />
                         </div>
                         <div className="p-6 px-2 sm:pr-6 sm:pl-4">
-                            <p className="block antialiased font-sans text-sm font-light leading-normal text-inherit mb-4 ">
-                                Technology
-                            </p>
+
                             <a
                                 href="#"
                                 className="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 mb-2 normal-case transition-colors hover:text-gray-700"
                             >
-                                Revolutionizing Our Production Process
+                                Tiempo con amigos
                             </a>
                             <p className="block antialiased font-sans text-base leading-relaxed text-inherit mb-8 font-normal !text-gray-500">
                                 Learn how our recent investment in new technology has revolutionized our production process, leading to improved efficiency and product quality.
@@ -56,23 +54,21 @@ function Gallery() {
                     <div className="relative flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none grid gap-2 item sm:grid-cols-2">
                         <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0">
                             <img
-                                src="https://bucket.material-tailwind.com/magic-ai/e7aa235a7bc5f504db1c66e27ece08f8118b1da6b21c013500391afcd572cf7d.jpg"
+                                src="../src/img/imgRubi.jpg"
                                 alt="Expanding Our Service Network"
                                 className="object-cover w-full h-full"
                             />
                         </div>
                         <div className="p-6 px-2 sm:pr-6 sm:pl-4">
-                            <p className="block antialiased font-sans text-sm font-light leading-normal text-inherit mb-4 ">
-                                Expansion
-                            </p>
+
                             <a
                                 href="#"
                                 className="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 mb-2 normal-case transition-colors hover:text-gray-700"
                             >
-                                Expanding Our Service Network
+                                Armar cubos de Rubik
                             </a>
                             <p className="block antialiased font-sans text-base leading-relaxed text-inherit mb-8 font-normal !text-gray-500">
-                                Discover how our expansion investment has allowed us to enhance our service network, providing better support and customer experience.
+                                Desde pequeño y para ser mas especifico durante la pandemia pues t
                             </p>
                             <div className="flex items-center gap-4">
                                 <img
@@ -93,20 +89,18 @@ function Gallery() {
                     <div className="relative flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none grid gap-2 item sm:grid-cols-2">
                         <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0">
                             <img
-                                src="https://bucket.material-tailwind.com/magic-ai/dc74a867f21afc734166a6d37c08beaba4ff040664ba8ccce918e054264ad68d.jpg"
+                                src="https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2021-08/nba-logo-this-is-why-we-play_1x5eulu7n2arq15qurp67kplpb.jpg?itok=MnBhe_YM"
                                 alt="Sustainable Practices for a Greener Future"
                                 className="object-cover w-full h-full"
                             />
                         </div>
                         <div className="p-6 px-2 sm:pr-6 sm:pl-4">
-                            <p className="block antialiased font-sans text-sm font-light leading-normal text-inherit mb-4 ">
-                                Sustainability
-                            </p>
+
                             <a
                                 href="#"
                                 className="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 mb-2 normal-case transition-colors hover:text-gray-700"
                             >
-                                Sustainable Practices for a Greener Future
+                                Jugar Baloncesto
                             </a>
                             <p className="block antialiased font-sans text-base leading-relaxed text-inherit mb-8 font-normal !text-gray-500">
                                 Find out how our investment in sustainable practices is driving us towards a greener future, showcasing our commitment to environmental responsibility.

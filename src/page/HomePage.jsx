@@ -17,7 +17,7 @@ const HomePage = () => {
                     </h1>
                     <p className="mx-[2rem] mt-4 sm:mt-7 mb-8 sm:mb-11 text-base sm:text-lg font-light text-[#C5C5C5] max-w-lg">
                         Hola mi nombre es Luis Rodrigo tengo 17 años de edad actualmente curso mi tercer y ultimo año de educacion media
-                        en el centro educativo tecnico laboral Kinal soy un joven apacionado por la tecnologia, es de mas mencionar de que yo mismo
+                        en el centro educativo tecnico laboral Kinal soy un joven apacionado por la tecnologia, es de mas mencionar de que yo
                         desarrolle este pequeño proyecto con ayuda de varias tecnologias y frameworks como React, JavaScript, Tailwind y GitHub.
                     </p>
                     <div className="text-center">
@@ -28,7 +28,6 @@ const HomePage = () => {
                 </div>
             </div>
             <About></About>
-            <Footer></Footer>
         </>
     );
 }

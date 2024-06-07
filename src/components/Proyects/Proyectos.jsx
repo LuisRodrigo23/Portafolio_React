@@ -8,7 +8,7 @@ function Proyectos() {
                 <div className="relative w-full h-[50vh]">
                     <img
                         className="absolute h-full w-full object-cover object-center"
-                        src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://images.unsplash.com/photo-1562813733-b31f71025d54?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DF"
                         alt="nature"
                     />
                     <div className="absolute inset-0 h-full w-full bg-black/40"></div>
