@@ -11,10 +11,12 @@ const About = () => {
                         <p className="leading-10 text-gray-500 text-2xl max-[750px]:text-[19px]">
                             Desde pequeño siempre he estado fascinado por cómo funcionan las cosas especialmente los
                             dispositivos electrónicos y las computadoras.
+                            <br />
+                            <br />
                             Y fue una pequeña charla con un amigo por el cual me decidi a estudiar Informatica en el año 2022
                             agradezco como el centro educativo tecnico laboral Kinal me abrieron sus puertas para poder formarme en esta etapa de
                             mi juventud y un dia lograr ser el profecional que tanto anelo
-                            Y durante este periodo de tiempo tuve la dicha del poder a conocer a grandes personas como amigos.
+                            y durante este periodo de tiempo, tuve la dicha del poder a conocer a grandes personas como amigos.
                         </p>
                     </div>
                     <div className="mt-5 ">
