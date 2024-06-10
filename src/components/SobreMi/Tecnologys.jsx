@@ -5,7 +5,7 @@ function Tecnologys() {
     return (
         <>  <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
             <img
-                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+                src="https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt=""
                 className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
             />
@@ -34,7 +34,7 @@ function Tecnologys() {
                 <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
                         <a href="https://www.facebook.com/photo?fbid=428224962637815&set=pcb.428225019304476">PRIMARIA <span aria-hidden="true">&rarr; Escuela Oficial U.M J.M</span></a>
-                        <a href="https://www.paginasamarillas.com.gt/empresas/instituto-mixto-de-educacion-basica-por-cooperativa-santo-domingo-xenacoj/santo-domingo-xenacoj-32449209?ad=51305742">BASICOS <span aria-hidden="true">&rarr;Colegio Santo Domingo XS</span></a>
+                        <a href="https://www.paginasamarillas.com.gt/empresas/instituto-mixto-de-educacion-basica-por-cooperativa-santo-domingo-xenacoj/santo-domingo-xenacoj-32449209?ad=51305742">BASICOS <span aria-hidden="true">&rarr;Instituto Imebco-Idedco</span></a>
                         <a href="https://www.facebook.com/kinal.gt">DIVERSIFICADO<span aria-hidden="true">&rarr; Fundacion Kinal</span></a>
                         <a href="#">UNIVERSIDAD<span aria-hidden="true">&rarr; Proceso...</span></a>
                     </div><br />

@@ -19,6 +19,48 @@ function Gallery() {
                     <div className="relative flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none grid gap-2 item sm:grid-cols-2">
                         <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0">
                             <img
+                                src="https://d2yoo3qu6vrk5d.cloudfront.net/images/20170905121301/cubo-de-rubik-900x485.jpg?itok=1504707634"
+                                alt="Revolutionizing Our Production Process"
+                                className="object-cover w-full h-full"
+                            />
+                        </div>
+                        <div className="p-2 px-2 sm:pr-6 sm:pl-4">
+                            <a
+                                className="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 mb-2 normal-case transition-colors hover:text-gray-700"
+                            >
+                                Armar cubos de rubik
+                            </a>
+                            <p className="block antialiased font-sans text-base leading-relaxed text-inherit mb-8 font-normal !text-gray-500">
+                                "Mi fascinación por los cubos de Rubik comenzó con la curiosidad de un niño, ya que a temprana edad estos me llamaron la atencion
+                                y cada vez los podia armar mas rapido y diferentes tipos de cubos y eso aumento mas mi pequeña fascinación con los cubos."
+                            </p>
+
+                        </div>
+                    </div>
+                    <div className="relative flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none grid gap-2 item sm:grid-cols-2">
+                        <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0">
+                            <img
+                                src="https://www.elsoldetampico.com.mx/deportes/ux4my8-con-el-invierno-nacio-el-basquetbol/ALTERNATES/LANDSCAPE_1140/Con%20el%20invierno%20nacio%CC%81%20el%20ba%CC%81squetbol"
+                                alt="Revolutionizing Our Production Process"
+                                className="object-cover w-full h-full"
+                            />
+                        </div>
+                        <div className="p-2 px-2 sm:pr-6 sm:pl-4">
+                            <a
+                                className="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 mb-2 normal-case transition-colors hover:text-gray-700"
+                            >
+                                Jugar baloncesto
+                            </a>
+                            <p className="block antialiased font-sans text-base leading-relaxed text-inherit mb-8 font-normal !text-gray-500">
+                                "Desde pequeño me fascina el poder practicar este deporte aunque creo que los deportes no se me den bien pero disfruto el practicar
+                                este deporte cada vez que puedo."
+                            </p>
+
+                        </div>
+                    </div>
+                    <div className="relative flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none grid gap-2 item sm:grid-cols-2">
+                        <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0">
+                            <img
                                 src="../src/img/imgFt1.jpg"
                                 alt="Revolutionizing Our Production Process"
                                 className="object-cover w-full h-full"
@@ -26,13 +68,14 @@ function Gallery() {
                         </div>
                         <div className="p-2 px-2 sm:pr-6 sm:pl-4">
                             <a
-                                href="#"
+
                                 className="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 mb-2 normal-case transition-colors hover:text-gray-700"
                             >
                                 Tiempo con amigos
                             </a>
                             <p className="block antialiased font-sans text-base leading-relaxed text-inherit mb-8 font-normal !text-gray-500">
-                                Learn how our recent investment in new technology has revolutionized our production process, leading to improved efficiency and product quality.
+                                "Desde siempre me a gustado el poder pasar tiempo con amigos cercanos que e conocido a lo largo del tiempo que me an ayudado
+                                a poder mejorar en varios aspectos de mi vida y pasar malos o buenos momentos que hacen unicos e inolvidables eso propios."
                             </p>
 
                         </div>
@@ -40,73 +83,29 @@ function Gallery() {
                     <div className="relative flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none grid gap-2 item sm:grid-cols-2">
                         <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0">
                             <img
-                                src="../src/img/imgRubi.jpg"
-                                alt="Expanding Our Service Network"
+                                src="../src/img/imgFt4.jpg"
+                                alt="Revolutionizing Our Production Process"
                                 className="object-cover w-full h-full"
                             />
                         </div>
-                        <div className="p-6 px-2 sm:pr-6 sm:pl-4">
-
+                        <div className="p-2 px-2 sm:pr-6 sm:pl-4">
                             <a
-                                href="#"
+
                                 className="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 mb-2 normal-case transition-colors hover:text-gray-700"
                             >
-                                Armar cubos de Rubik
+                                Tiempo con amigoss
                             </a>
                             <p className="block antialiased font-sans text-base leading-relaxed text-inherit mb-8 font-normal !text-gray-500">
-                                Desde pequeño y para ser mas especifico durante la pandemia pues t
+                                "Pasar tiempo con amigos es como añadir pinceladas de alegría y risas a la obra maestra de la vida, cada momento compartido se
+                                convierte en un color vibrante que ilumina nuestro lienzo de recuerdos."
                             </p>
-                            <div className="flex items-center gap-4">
-                                <img
-                                    src="https://bucket.material-tailwind.com/magic-ai/16d71aaeda38d7aea4412875984357949ff12e7f2c502bb20c4c1bcf6c661607.jpg"
-                                    className="inline-block relative object-cover object-center  w-12 h-12 rounded-lg"
-                                />
-                                <div>
-                                    <p className="block antialiased font-sans text-base font-light leading-relaxed text-blue-gray-900 mb-0.5 ">
-                                        Jane Smith
-                                    </p>
-                                    <p className="block antialiased font-sans text-sm leading-normal text-gray-700 font-normal">
-                                        2022-09-02
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="relative flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none grid gap-2 item sm:grid-cols-2">
-                        <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0">
-                            <img
-                                src="https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2021-08/nba-logo-this-is-why-we-play_1x5eulu7n2arq15qurp67kplpb.jpg?itok=MnBhe_YM"
-                                alt="Sustainable Practices for a Greener Future"
-                                className="object-cover w-full h-full"
-                            />
-                        </div>
-                        <div className="p-6 px-2 sm:pr-6 sm:pl-4">
 
-                            <a
-                                href="#"
-                                className="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 mb-2 normal-case transition-colors hover:text-gray-700"
-                            >
-                                Jugar Baloncesto
-                            </a>
-                            <p className="block antialiased font-sans text-base leading-relaxed text-inherit mb-8 font-normal !text-gray-500">
-                                Find out how our investment in sustainable practices is driving us towards a greener future, showcasing our commitment to environmental responsibility.
-                            </p>
-                            <div className="flex items-center gap-4">
-                                <img
-                                    src="https://bucket.material-tailwind.com/magic-ai/2fadd7f00b6d08fc9dcacef52af357ec1213c0415ab97ace57ae0f17c7f6c2c8.jpg"
-                                    className="inline-block relative object-cover object-center  w-12 h-12 rounded-lg"
-                                />
-                                <div>
-                                    <p className="block antialiased font-sans text-base font-light leading-relaxed text-blue-gray-900 mb-0.5 ">
-                                        Alex Johnson
-                                    </p>
-                                    <p className="block antialiased font-sans text-sm leading-normal text-gray-700 font-normal">
-                                        2022-09-20
-                                    </p>
-                                </div>
-                            </div>
                         </div>
                     </div>
+
+
+
+
                 </div>
             </section>
             <Tecnologys />

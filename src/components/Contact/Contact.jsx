@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer';
 function Contact() {
     return (
         <>
-            <section className="bg-white dark:bg-gray-900 max-[550px]:h-[100vh] min-[550px]:mt-[100px]">
+            <section className="bg-white dark:bg-gray-900 max-[550px]:h-[100vh] min-[550px]:mt-[100px] max-[750px]:mt-[5rem]">
                 <div className="container px-6 py-12 mx-auto">
                     <div>
                         <p className="text-[35px] text-blue-500 dark:text-blue-400 font-bold text-center">¡Contactame!</p>
@@ -25,13 +25,10 @@ function Contact() {
                                         d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                                 </svg>
                             </span>
-
                             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
                             <p className="mt-2 text-blue-500 dark:text-blue-400">lvaquin-2022300@kinal.edu.gt</p>
-                            <p className="mt-2 text-blue-500 dark:text-blue-400">luisrodrigo23@gmail.com</p>
-
+                            <p className="mt-2 text-blue-500 dark:text-blue-400">luisbacajol123@gmail.com</p>
                         </div>
-
                         <div>
                             <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
@@ -43,8 +40,7 @@ function Contact() {
                             </span>
 
                             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Ubicacion</h2>
-                            <p className="mt-2 text-blue-500 dark:text-blue-400">6Av zona7 Col Landivar dc Guatemala</p>
-                            <p className="mt-2 text-blue-500 dark:text-blue-400">4ta calle zona3 Santo Domingo Sacatepequez</p>
+                            <p className="mt-2 text-blue-500 dark:text-blue-400">Zona 3 Santo Domingo Xenacoj Sacatepequez</p>
                         </div>
 
                         <div>

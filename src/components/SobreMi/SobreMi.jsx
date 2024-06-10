@@ -11,7 +11,7 @@ function SobreMi() {
                 <section className="">
                     <div className="container mx-auto">
                         <div className="flex justify-center">
-                            <div className="mx-auto mb-[1rem] sm:mb-[0rem] mt-12 sm:mt-20 h-[16rem] sm:h-[16rem] w-[16rem] sm:w-[16rem] overflow-hidden rounded-full bg-gradient-to-tr from-[#6c63ff] to-[#6c63ff]">
+                            <div className="mx-auto mb-[1rem] sm:mb-[0rem] mt-12 sm:mt-20 h-[16rem] sm:h-[16rem] w-[16rem] sm:w-[16rem] overflow-hidden rounded-full bg-gradient-to-tr from-[red] to-[#6c63ff]">
                                 <img src="../src/img/imgDev.png" alt="" className="h-[110%] w-[101%] object-cover" />
                             </div>
                         </div>
@@ -44,9 +44,10 @@ function SobreMi() {
                                 <div className="mt-4 md:mx-4 md:mt-0">
                                     <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Desarrollador</h1>
                                     <p className="mt-3 text-gray-500 dark:text-gray-300">
-                                        Disfruto diseñando productos dinamicos y creativos de principio a fin
-                                        Enfocados en desarrollar experiencias intuitivas que crecen y mejoran
-                                        constantemente para la experiencia de usuario.                                          </p>
+                                        Me apasiona desarrollar porque cada proyecto es una oportunidad para combinar lógica y creatividad. Disfruto resolver problemas
+                                        con soluciones  eficientes, transformando ideas abstractas en interfaces intuitivas y funcionales. La satisfacción que me queda
+                                        de ver cómo cada línea de código y cada elemento de diseño se unen para crear experiencias digitales unicas para el usuario.
+                                    </p>
                                 </div>
                             </div>
                             <div className="md:flex md:items-start md:-mx-4">

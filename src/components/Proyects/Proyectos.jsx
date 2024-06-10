@@ -13,12 +13,12 @@ function Proyectos() {
                         alt="nature"
                     />
                     <div className="absolute inset-0 h-full w-full bg-black/40"></div>
-                    <div className="relative pt-[16rem] text-center max-[500px]:pt-[13rem]">
+                    <div className="relative pt-[14rem] text-center max-[500px]:pt-[12rem]">
                         <h2 className="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-white mb-4 text-3xl lg:text-4xl">
                             MIS PROYECTOS
                         </h2>
                         <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-white mb-9 opacity-70">
-                            Esta seccion es para mis proyectos blablabablabalba
+                            Esta seccion se encuentran algunos de los proyectos los cuales e podido desarrollar a lo largo de mi corto tiempo como Desarrollador
                         </p>
                     </div>
                 </div>
