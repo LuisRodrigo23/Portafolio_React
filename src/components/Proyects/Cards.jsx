@@ -25,7 +25,6 @@ const Cards = () => {
             description: "The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to 'Naviglio' where you can enjoy the main night life in Barcelona.",
             url: "fasdkfj"
         },
-
         {
             img: ["https://img.freepik.com/foto-gratis/collage-fondo-programacion_23-2149901782.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1716508800&semt=ais_user"],
             name: "Tienda-HTML y Css",
@@ -79,7 +78,6 @@ const Cards = () => {
             </div>
             <Footer />
         </>
-
     );
 };
 

@@ -8,7 +8,7 @@ const HomePage = () => {
             <div className="max-[300px]:pt-[3rem] pt-[12px]"></div>
             <div className="flex flex-col justify-center items-center h-[100vh] bg-[#161513] max-[375px]:h-[115vh] ">
                 <div className="mx-auto text-center">
-                    <div className="mx-auto mb-[1rem] sm:mb-[0rem] mt-12 sm:mt-20 h-[14rem] sm:h-[16rem] w-[14rem] sm:w-[16rem] overflow-hidden rounded-full bg-gradient-to-tr from-[#6c63ff] to-[#6c63ff]">
+                    <div className="mx-auto mb-[1rem] sm:mb-[0rem] mt-12 sm:mt-20 h-[14rem] sm:h-[16rem] w-[14rem] sm:w-[16rem] overflow-hidden rounded-full bg-gradient-to-tr from-[green] to-[#6c63ff]">
                         <img src="../src/img/imgDev.png" alt="" className="h-[110%] w-[101%] object-cover" />
                     </div>
                     <br />
@@ -28,7 +28,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
-            <About></About>
+            <About />
         </>
     );
 }

@@ -22,7 +22,7 @@ function Networks() {
                             Twitter
                         </span>
                     </Link>
-                    <Link to="#" className="group flex flex-col items-center justify-center rounded-lg bg-white p-4 transition-colors hover:bg-gray-100  ">
+                    <Link to="https://www.linkedin.com/in/luis-vaquin-644605245/" className="group flex flex-col items-center justify-center rounded-lg bg-white p-4 transition-colors hover:bg-gray-100  ">
                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 transition-colors group-hover:bg-gray-200  ">
                             <LinkedinIcon className="h-6 w-6 text-gray-500 transition-colors group-hover:text-gray-900" />
                         </div>
@@ -30,7 +30,7 @@ function Networks() {
                             LinkedIn
                         </span>
                     </Link>
-                    <Link to="#" className="group flex flex-col items-center justify-center rounded-lg bg-white p-4 transition-colors hover:bg-gray-100 ">
+                    <Link to="https://www.instagram.com/luis_roodrigoo/" className="group flex flex-col items-center justify-center rounded-lg bg-white p-4 transition-colors hover:bg-gray-100 ">
                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 transition-colors group-hover:bg-gray-200 ">
                             <InstagramIcon className="h-6 w-6 text-gray-500 transition-colors group-hover:text-gray-900" />
                         </div>
@@ -38,7 +38,7 @@ function Networks() {
                             Instagram
                         </span>
                     </Link>
-                    <Link to="#" className="group flex flex-col items-center justify-center rounded-lg bg-white p-4 transition-colors hover:bg-gray-100 ">
+                    <Link to="https://github.com/LuisRodrigo23" className="group flex flex-col items-center justify-center rounded-lg bg-white p-4 transition-colors hover:bg-gray-100 ">
                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 transition-colors group-hover:bg-gray-200 ">
                             <GithubIcon className="h-6 w-6 text-gray-500 transition-colors group-hover:text-gray-900 " />
                         </div>
@@ -46,7 +46,7 @@ function Networks() {
                             GitHub
                         </span>
                     </Link>
-                    <Link to="#" className="group flex flex-col items-center justify-center rounded-lg bg-white p-4 transition-colors hover:bg-gray-100 ">
+                    <Link to="https://youtube.com/@luisbacajol.180" className="group flex flex-col items-center justify-center rounded-lg bg-white p-4 transition-colors hover:bg-gray-100 ">
                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 transition-colors group-hover:bg-gray-200 ">
                             <YoutubeIcon className="h-6 w-6 text-gray-500 transition-colors group-hover:text-gray-900 " />
                         </div>

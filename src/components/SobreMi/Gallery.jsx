@@ -24,8 +24,7 @@ function Gallery() {
                                 className="object-cover w-full h-full"
                             />
                         </div>
-                        <div className="p-6 px-2 sm:pr-6 sm:pl-4">
-
+                        <div className="p-2 px-2 sm:pr-6 sm:pl-4">
                             <a
                                 href="#"
                                 className="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 mb-2 normal-case transition-colors hover:text-gray-700"
@@ -35,20 +34,7 @@ function Gallery() {
                             <p className="block antialiased font-sans text-base leading-relaxed text-inherit mb-8 font-normal !text-gray-500">
                                 Learn how our recent investment in new technology has revolutionized our production process, leading to improved efficiency and product quality.
                             </p>
-                            <div className="flex items-center gap-4">
-                                <img
-                                    src="https://bucket.material-tailwind.com/magic-ai/6b1c5941d417a2a32baee89c2f3d1975d7d4fb81e486ed43dc1082ac54b0658b.jpg"
-                                    className="inline-block relative object-cover object-center  w-12 h-12 rounded-lg"
-                                />
-                                <div>
-                                    <p className="block antialiased font-sans text-base font-light leading-relaxed text-blue-gray-900 mb-0.5 ">
-                                        John Doe
-                                    </p>
-                                    <p className="block antialiased font-sans text-sm leading-normal text-gray-700 font-normal">
-                                        2022-08-15
-                                    </p>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                     <div className="relative flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none grid gap-2 item sm:grid-cols-2">
