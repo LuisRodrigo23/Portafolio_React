@@ -41,7 +41,7 @@ const HomePage = () => {
                         href="https://www.instagram.com/luis_roodrigoo/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block w-20 h-20 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
+                        className="block w-[4rem] h-[4rem] rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
                     >
                         <img
                             className="object-cover object-center w-full h-full rounded-full"
