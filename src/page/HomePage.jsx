@@ -1,6 +1,7 @@
 import Footer from "../components/Footer/Footer";
 import About from "../components/Inicio/About";
 import Navbar from "../components/Navbar/Navbar";
+import Proyectos from "../components/Proyects/Proyectos";
 import "../components/StyleTransition.css"
 
 const HomePage = () => {
@@ -23,14 +24,19 @@ const HomePage = () => {
                         en el centro educativo tecnico laboral Kinal soy un joven apacionado por la tecnologia, es de mas mencionar de que yo
                         desarrolle este pequeño proyecto con ayuda de varias tecnologias y frameworks como React, JavaScript, Tailwind y GitHub.
                     </p>
+                    <br />
                     <div className="text-center">
                         <a href="../src/documents/CV_LuisRodrigo.pdf" download={"Mi CV-Luis"}>
-                            <button className="inline-block px-6 py-3 mr-4 sm:mr-8 bg-[#6c63ff] rounded-full font-semibold text-lg sm:text-xl text-white">Ver mi CV</button>
+                            <button className="inline-block px-6 py-3 mr-4 sm:mr-8 bg-[#6c63ff] rounded-full font-semibold text-lg sm:text-xl text-white">Ver mi perfil</button>
                         </a>
                     </div>
                 </div>
+
             </div>
+
             <About />
+            <Proyectos />
+
         </>
     );
 }

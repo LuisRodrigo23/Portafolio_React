@@ -7,7 +7,7 @@ function Proyectos() {
     return (
         <>
             <Navbar />
-            <section>
+            <section id=''>
                 <div className="relative w-full h-[50vh]">
                     <img
                         className="absolute h-full w-full object-cover object-center"
@@ -15,7 +15,7 @@ function Proyectos() {
                         alt="nature"
                     />
                     <div className="absolute inset-0 h-full w-full bg-black/40"></div>
-                    <div className="relative pt-[14rem] text-center max-[500px]:pt-[12rem]">
+                    <div className="relative p-[2rem] text-center max-[500px]:pt-[6rem]">
                         <h2 className="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-white mb-4 text-3xl lg:text-4xl">
                             MIS PROYECTOS
                         </h2>

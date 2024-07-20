@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
+import Contact from '../Contact/Contact';
 
 const Cards = () => {
     const cards = [
@@ -87,6 +88,7 @@ const Cards = () => {
                     ))}
                 </div>
             </div>
+            <Contact />
             <Footer />
         </>
     );

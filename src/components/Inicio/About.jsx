@@ -19,14 +19,13 @@ const About = () => {
                             y durante este periodo de tiempo, tuve la dicha del poder a conocer a grandes personas como amigos.
                         </p>
                     </div>
-                    <div className="mt-5 ">
+                    <div className="mt-5" id="">
                         <img className="w-[auto] h-[auto] rounded-md mx-[auto] my-[auto]
-                         max-[650px]:my-[5rem]" src="../src/assets/dev2.svg" alt="Graphic Design" />
+                         max-[650px]:my-[5rem]" src="../src/assets/dev2.svg" alt="Graphic Design" id="routeProyects" />
                     </div>
                 </div>
             </div>
         </section>
-            <Footer />
         </>
 
     );
