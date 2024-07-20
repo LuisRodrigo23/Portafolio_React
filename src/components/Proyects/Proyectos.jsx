@@ -15,7 +15,7 @@ function Proyectos() {
                         alt="nature"
                     />
                     <div className="absolute inset-0 h-full w-full bg-black/40"></div>
-                    <div className="relative p-[3rem] min-[1200px]:p-[12rem] text-center max-[1000px]:pt-[6rem]">
+                    <div className="relative p-[3rem] min-[1200px]:p-[12rem] text-center max-[1000px]:pt-[5rem]">
                         <h2 className="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-white mb-4 text-3xl lg:text-4xl">
                             MIS PROYECTOS
                         </h2>
