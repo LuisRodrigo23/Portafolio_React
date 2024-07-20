@@ -21,7 +21,7 @@ const About = () => {
                     </div>
                     <div className="mt-5" id="">
                         <img className="w-[auto] h-[auto] rounded-md mx-[auto] my-[auto]
-                         max-[650px]:my-[5rem]" src="../public/dev2.svg" alt="Graphic Design" id="routeProyects" />
+                         max-[650px]:my-[5rem]" src="/dev2.svg" alt="Graphic Design" id="routeProyects" />
                     </div>
                 </div>
             </div>
