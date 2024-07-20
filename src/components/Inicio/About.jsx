@@ -12,7 +12,7 @@ const About = () => {
                             Desde pequeño siempre he estado fascinado por cómo funcionan las cosas especialmente los
                             dispositivos electrónicos y las computadoras.
                             <br />
-                            <br />
+
                             Y fue una pequeña charla con un amigo por el cual me decidi a estudiar Informatica en el año 2022
                             agradezco como el centro educativo tecnico laboral Kinal me abrieron sus puertas para poder formarme en esta etapa de
                             mi juventud y un dia lograr ser el profecional que tanto anelo
@@ -21,7 +21,7 @@ const About = () => {
                     </div>
                     <div className="mt-5" id="">
                         <img className="w-[auto] h-[auto] rounded-md mx-[auto] my-[auto]
-                         max-[650px]:my-[5rem]" src="../src/assets/dev2.svg" alt="Graphic Design" id="routeProyects" />
+                         max-[650px]:my-[5rem]" src="../public/dev2.svg" alt="Graphic Design" id="routeProyects" />
                     </div>
                 </div>
             </div>

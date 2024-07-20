@@ -40,8 +40,7 @@ function Navbar() {
                                 <div className="lg:flex-grow mt-2 animated jackinthebox xl:mx-8 text-[20px]">
                                     <a href="/" className="block lg:inline-block text-md font-bold text-gray-900 sm:hover:border-indigo-400 hover:text-blue-700 mx-2 focus:text-blue-500 p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">INICIO</a>
                                     <a href="#routeProyects" className="block lg:inline-block text-md font-bold text-gray-900 sm:hover:border-indigo-400 hover:text-blue-700 mx-2 focus:text-blue-500 p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">MIS PROYECTOS</a>
-                                    <a href="#idPage" className="block lg:inline-block text-md font-bold text-gray-900 sm:hover:border-indigo-400 hover:text-blue-700 mx-2 focus:text-blue-500 p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">SOBRE NOSOTROS</a>
-                                    <a href="#footerId" className="block lg:inline-block text-md font-bold text-gray-900 sm:hover:border-indigo-400 hover:text-blue-700 mx-2 focus:text-blue-500 p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">CONTACTANOS</a>
+                                    <a href="#routerContact" className="block lg:inline-block text-md font-bold text-gray-900 sm:hover:border-indigo-400 hover:text-blue-700 mx-2 focus:text-blue-500 p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">CONTACTAME</a>
                                 </div>
                             </div>
                         </nav>
