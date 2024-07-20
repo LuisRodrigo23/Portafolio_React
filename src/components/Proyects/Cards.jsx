@@ -70,7 +70,7 @@ const Cards = () => {
                                     <div className="flex items-center">
                                         <img
                                             className="w-10 h-10 rounded-full mr-4"
-                                            src="../src/img/imgLogoGit.jpeg"
+                                            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                                             alt="avatar"
                                         />
                                         <a
