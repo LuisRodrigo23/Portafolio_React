@@ -7,7 +7,7 @@ function Contact() {
     return (
         <>
             <Navbar />
-            <section className=" dark:bg-gray-900 max-[550px]:h-[100vh] min-[550px]:mt-[100px] max-[750px]:mt-[5rem]" id='routerContact'>
+            <section className=" dark:bg-gray-900 max-[550px]:h-[110vh] min-[550px]:mt-[100px] max-[750px]:mt-[5rem]" id='routerContact'>
                 <div className="container px-6 py-12 mx-auto">
                     <div>
                         <p className="text-[35px] text-blue-500 dark:text-blue-400 font-bold text-center">¡Contactame!</p>
