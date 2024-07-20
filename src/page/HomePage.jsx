@@ -1,10 +1,12 @@
 import Footer from "../components/Footer/Footer";
 import About from "../components/Inicio/About";
+import Navbar from "../components/Navbar/Navbar";
 import "../components/StyleTransition.css"
 
 const HomePage = () => {
     return (
         <>
+            <Navbar />
             <div className="max-[300px]:pt-[3rem] pt-[12px]"></div>
             <div className="flex flex-col justify-center items-center h-[100vh] bg-[#161513] max-[375px]:h-[115vh] ">
                 <div className="mx-auto text-center">

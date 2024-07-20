@@ -1,10 +1,12 @@
 import React from 'react'
 import Networks from './Networks'
 import Footer from '../Footer/Footer';
+import Navbar from '../Navbar/Navbar';
 
 function Contact() {
     return (
         <>
+            <Navbar />
             <section className="bg-white dark:bg-gray-900 max-[550px]:h-[100vh] min-[550px]:mt-[100px] max-[750px]:mt-[5rem]">
                 <div className="container px-6 py-12 mx-auto">
                     <div>
