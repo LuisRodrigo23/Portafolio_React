@@ -7,8 +7,8 @@ function Contact() {
     return (
         <>
             <Navbar />
-            <section className=" dark:bg-gray-900 max-[550px]:h-[110vh] min-[550px]:mt-[100px] max-[750px]:mt-[5rem]" id='routerContact'>
-                <div className="container px-6 py-12 mx-auto max-[1200px]:text-[12x]">
+            <section className=" dark:bg-gray-900 max-[550px]:h-[auto] min-[550px]:mt-[100px] max-[750px]:mt-[5rem]" id='routerContact'>
+                <div className="container px-6 py-10 mx-auto max-[1200px]:text-[13px]">
                     <div>
                         <p className="text-[35px] text-blue-500 dark:text-blue-400 font-bold text-center">¡Contactame!</p>
                         <br />
@@ -43,6 +43,7 @@ function Contact() {
 
                             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Ubicacion</h2>
                             <p className="mt-2 text-blue-500 dark:text-blue-400">Zona 3, Santo Domingo Sacatepequez</p>
+                            <p className="mt-2 text-blue-500 dark:text-blue-400">zona 7, col Landivar cd Guatemala</p>
                         </div>
 
                         <div>

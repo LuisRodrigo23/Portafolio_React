@@ -4,7 +4,7 @@ import { GithubIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } fro
 
 function Networks() {
     return (
-        <section className="flex items-center justify-center w-full h-[45vh] py-12 md:py-24 lg:py-32 bg-white mb-[40px]
+        <section className="flex items-center justify-center w-full h-auto py-12 md:py-24 lg:py-32 bg-white mb-[75px]
         max-[650px]:h-[60vh]">
             <div className="container max-w-5xl px-4 md:px-6 max-[650px]:mt-[5rem]">
                 <div className="space-y-4 text-center">
