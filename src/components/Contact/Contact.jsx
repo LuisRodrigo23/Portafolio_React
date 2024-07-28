@@ -8,7 +8,7 @@ function Contact() {
         <>
             <Navbar />
             <section className=" dark:bg-gray-900 max-[550px]:h-[110vh] min-[550px]:mt-[100px] max-[750px]:mt-[5rem]" id='routerContact'>
-                <div className="container px-6 py-12 mx-auto max-[1200px]:text-[10px]">
+                <div className="container px-6 py-12 mx-auto max-[1200px]:text-[12x]">
                     <div>
                         <p className="text-[35px] text-blue-500 dark:text-blue-400 font-bold text-center">¡Contactame!</p>
                         <br />
@@ -29,7 +29,7 @@ function Contact() {
                             </span>
                             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
                             <p className="mt-2 text-blue-500 dark:text-blue-400">lvaquin-2022300@kinal.edu.gt</p>
-                            <p className="mt-2 text-blue-500 dark:text-blue-400">luisbacajol123@gmail.com</p>
+                            <p className="mt-2 text-blue-500 dark:text-blue-400">luisbc123@gmail.com</p>
                         </div>
                         <div>
                             <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
@@ -42,7 +42,7 @@ function Contact() {
                             </span>
 
                             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Ubicacion</h2>
-                            <p className="mt-2 text-blue-500 dark:text-blue-400">Zona 3 Santo Domingo Xenacoj Sacatepequez</p>
+                            <p className="mt-2 text-blue-500 dark:text-blue-400">Zona 3, Santo Domingo Sacatepequez</p>
                         </div>
 
                         <div>
