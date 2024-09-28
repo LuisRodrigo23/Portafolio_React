@@ -1,12 +1,11 @@
 import React from 'react'
 import Networks from './Networks'
 import Footer from '../Footer/Footer';
-import Navbar from '../Navbar/Navbar';
+
 
 function Contact() {
     return (
         <>
-            <Navbar />
             <section className=" dark:bg-gray-900 max-[550px]:h-[auto] min-[550px]:mt-[100px] max-[750px]:mt-[5rem]" id='routerContact'>
                 <div className="container px-6 py-10 mx-auto max-[1200px]:text-[13px]">
                     <div>

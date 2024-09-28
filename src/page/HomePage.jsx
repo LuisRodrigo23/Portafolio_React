@@ -1,22 +1,19 @@
-import Footer from "../components/Footer/Footer";
 import About from "../components/Inicio/About";
-import Navbar from "../components/Navbar/Navbar";
 import Proyectos from "../components/Proyects/Proyectos";
-import "../components/StyleTransition.css"
-
+import "../components/StyleTransition.css";
+import NavbarAb from "../components/Navbar/Navbar";
 const HomePage = () => {
     return (
         <>
-            <Navbar />
-            <div className="max-[300px]:pt-[3rem] pt-[12px]"></div>
-            <div className="flex flex-col justify-center items-center h-[100vh] bg-[#161513] max-[375px]:h-[115vh] ">
-                <div className="mx-auto text-center">
-                    <div className="mx-auto mb-[1rem] sm:mb-[0rem] mt-12 sm:mt-20 h-[14rem] sm:h-[16rem] w-[14rem] sm:w-[16rem] overflow-hidden rounded-full bg-gradient-to-tr from-[red] to-[#6c63ff]">
-                        <img src="https://i.postimg.cc/d1rLKzTH/imgDev.png" alt="" className="h-[110%] w-[101%] object-cover" />
+            <NavbarAb />
+            <div className="flex flex-col justify-center items-center h-[100vh] bg-[#161513] max-[375px]:h-[100vh] ">
+                <div className="mx-auto text-center mt-[1] max-[750px]:mt-[25rem]">
+                    <div className="mx-auto mb-[1rem] sm:mb-[0rem] mt-12 sm:mt-20 h-[14rem] sm:h-[16rem] w-[14rem] sm:w-[16rem] overflow-hidden rounded-full bg-gradient-to-tr bg-blue-900">
+                        <img src="./src/img/imgFondEss-removebg.png" alt="" className="h-[110%] w-[101%] object-cover" />
                     </div>
                     <br />
-                    <h1 className="max-w-screen-sm text-3xl sm:text-5xl font-extrabold text-white mb-4 sm:mb-8">
-                        HOLA SOY LUIS <br className="hidden sm:inline" /> <br />
+                    <h1 className="max-w-screen-sm text-[1.72rem] sm:text-5xl font-extrabold text-white mb-4 sm:mb-8">
+                        Hola soy Luis <br />Rodrigo <br className="hidden sm:inline" /> <br />
                         Frontend <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#6c63ff] to-[#6c63ff]">Developer</span>
                     </h1>
                     <p className="mx-[2rem] mt-4 sm:mt-7 mb-8 sm:mb-11 text-base sm:text-lg font-light text-[#C5C5C5] max-w-lg">
@@ -31,8 +28,6 @@ const HomePage = () => {
                         </a>
                     </div>
                 </div>
-
-
             </div>
             <div className="flex items-end justify-end fixed bottom-5 right-0 mb-4 mr-4 z-10">
                 <div>

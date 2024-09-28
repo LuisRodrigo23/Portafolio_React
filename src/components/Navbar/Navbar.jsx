@@ -1,54 +1,123 @@
-import React, { useState, useEffect } from 'react';
-import { changeHeaderColor } from './Scroll';
-function Navbar() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
+import React from 'react';
+import Divider from '@mui/material/Divider';
+import { List, ListItem, ListItemButton, ListItemText } from '@mui/material'; // Eliminada duplicación de Divider
+import Box from '@mui/material/Box';
+import CssBaseline from '@mui/material/CssBaseline'; // Agregadas las importaciones faltantes
+import AppBar from '@mui/material/AppBar';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+import Drawer from '@mui/material/Drawer';
+import handleNavbarScroll from "./srollHandler"
 
-    const handleMenuClick = () => {
-        setIsMenuOpen(!isMenuOpen);
+const drawerWidth = 240;
+const navItems = [
+    { label: 'Home', path: '/' }
+];
+
+function NavbarAb(props) {
+    const { window } = props;
+    const [mobileOpen, setMobileOpen] = React.useState(false);
+    const [navBackground, setNavBackground] = React.useState('transparent');
+
+    const handleDrawerToggle = () => {
+        setMobileOpen((prevState) => !prevState);
     };
 
-    useEffect(() => {
-        const header = document.querySelector('header');
-        if (header) {
-            const cleanup = changeHeaderColor(header);
-
-            // Cleanup function para remover el evento de scroll
-            return () => {
-                cleanup();
-            };
-        }
+    React.useEffect(() => {
+        const cleanup = handleNavbarScroll(setNavBackground); // Usar la lógica del scroll
+        return cleanup;
     }, []);
 
+    const drawer = (
+        <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', fontSize: '35px' }}>
+            <Typography variant="h6" sx={{ my: 4, fontSize: '25px' }}>
+                ServicesRd
+            </Typography>
+            <Divider />
+            <List>
+                {navItems.map((item) => (
+                    <ListItem key={item.label} disablePadding>
+                        <ListItemButton component={Link} to={item.path} sx={{ textAlign: 'center' }}>
+                            <ListItemText primary={item.label} sx={{ fontSize: '40px' }} />
+                        </ListItemButton>
+                    </ListItem>
+                ))}
+            </List>
+        </Box>
+    );
+
+    const container = window !== undefined ? () => window().document.body : undefined;
+
     return (
-        <>
-            <header style={{ transition: 'background-color 0.3s ease' }} className='fixed top-0 w-full bg-white shadow-lg z-10'>
-                <div className="py-10 max-[1000px]:py-[1.5rem] px-2 lg:mx-4 xl:mx-12">
-                    <div>
-                        <nav className="relative flex items-center justify-between flex-wrap">
-                            <div className="block lg:hidden">
-                                <button
-                                    onClick={handleMenuClick} // Manejar el clic del botón del menú
-                                    className="navbar-burger flex items-center px-3 py-2 border rounded text-white border-none hover:text-white hover:border">
-                                    <svg className="fill-current h-6 w-6 text-gray-700" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <title>Menu</title>
-                                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                                    </svg>
-                                    <h1 className='text-gray-700 font-bold ml-[30px] text-xl'>Mi portafolio</h1>
-                                </button>
-                            </div>
-                            <div id="main-nav" className={`w-full flex-grow lg:flex items-center lg:w-auto ${isMenuOpen ? 'block' : 'hidden'}`}>
-                                <div className="lg:flex-grow mt-2 animated jackinthebox xl:mx-8 text-[20px]">
-                                    <a href="/" className="block lg:inline-block text-md font-bold text-gray-900 sm:hover:border-indigo-400 hover:text-blue-700 mx-2 focus:text-blue-500 p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">INICIO</a>
-                                    <a href="#routeProyects" className="block lg:inline-block text-md font-bold text-gray-900 sm:hover:border-indigo-400 hover:text-blue-700 mx-2 focus:text-blue-500 p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">MIS PROYECTOS</a>
-                                    <a href="#routerContact" className="block lg:inline-block text-md font-bold text-gray-900 sm:hover:border-indigo-400 hover:text-blue-700 mx-2 focus:text-blue-500 p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">CONTACTAME</a>
-                                </div>
-                            </div>
-                        </nav>
+        <Box sx={{ position: 'absolute' }}> {/* Corregido el uso de 'display' a 'position' */}
+            <CssBaseline />
+            <AppBar
+                component="nav"
+                className="h-[4.2rem]"
+                sx={{
+                    backgroundColor: navBackground,
+                    color: navBackground === 'transparent' ? '#fff' : '#000',
+                    transition: 'background-color 0.3s ease',
+                    boxShadow: 'none',
+                }}
+            >
+                <Toolbar className="p-[1rem]">
+                    <IconButton
+                        color="inherit"
+                        aria-label="open drawer"
+                        edge="start"
+                        onClick={handleDrawerToggle}
+                        sx={{ mr: 2, display: { sm: 'none' } }}
+                    >
+                        <MenuIcon />
+                    </IconButton>
+                    <div className="text-wrap text-[22px]">
+                        <a href="/">Services</a>
                     </div>
-                </div>
-            </header>
-        </>
+                    <Typography
+                        variant="h6"
+                        component="div"
+                        sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+                    >
+                        MUI
+                    </Typography>
+                    <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+                        {navItems.map((item) => (
+                            <Button
+                                key={item.label}
+                                component={Link}
+                                to={item.path}
+                                sx={{ color: navBackground === 'transparent' ? '#fff' : '#000' }}
+                            >
+                                {item.label}
+                            </Button>
+                        ))}
+                    </Box>
+                </Toolbar>
+            </AppBar>
+            <nav>
+                <Drawer
+                    container={container}
+                    variant="temporary"
+                    open={mobileOpen}
+                    onClose={handleDrawerToggle}
+                    ModalProps={{
+                        keepMounted: true,
+                    }}
+                    sx={{
+                        display: { xs: 'block', sm: 'none' },
+                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+                    }}
+                >
+                    {drawer}
+                </Drawer>
+            </nav>
+        </Box>
     );
 }
 
-export default Navbar;
+export default NavbarAb;

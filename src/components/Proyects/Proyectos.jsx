@@ -1,12 +1,11 @@
 import React from 'react'
 import Cards from './Cards'
 import "../StyleTransition.css"
-import Navbar from '../Navbar/Navbar';
 
 function Proyectos() {
     return (
         <>
-            <Navbar />
+
             <section id='routeProyects'>
                 <div className="relative w-full h-[50vh]">
                     <img
