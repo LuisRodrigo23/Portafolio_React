@@ -15,7 +15,13 @@ import handleNavbarScroll from "./srollHandler"
 
 const drawerWidth = 240;
 const navItems = [
-    { label: 'Home', path: '/' }
+    { label: 'Home', path: '/' },
+    { label: 'DataLab', path: '/' },
+    { label: 'Proyects', path: '/' },
+    { label: 'Goo', path: '/' },
+    { label: 'Goo Admin', path: '/' },
+    { label: 'Nc Delicias', path: '/' }
+
 ];
 
 function NavbarAb(props) {
@@ -35,7 +41,7 @@ function NavbarAb(props) {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', fontSize: '35px' }}>
             <Typography variant="h6" sx={{ my: 4, fontSize: '25px' }}>
-                ServicesRd
+                Opciones
             </Typography>
             <Divider />
             <List>
@@ -57,7 +63,7 @@ function NavbarAb(props) {
             <CssBaseline />
             <AppBar
                 component="nav"
-                className="h-[4.2rem]"
+                className="h-[4.5rem]"
                 sx={{
                     backgroundColor: navBackground,
                     color: navBackground === 'transparent' ? '#fff' : '#000',
@@ -75,8 +81,8 @@ function NavbarAb(props) {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <div className="text-wrap text-[22px]">
-                        <a href="/">Services</a>
+                    <div className="text-wrap text-[20px]">
+                        <a href="/">LuisRod MUI</a>
                     </div>
                     <Typography
                         variant="h6"

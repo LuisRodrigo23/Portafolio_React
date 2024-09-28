@@ -7,37 +7,35 @@ const HomePage = () => {
     return (
         <>
             <NavbarAb />
-            <div className="flex flex-col justify-center items-center h-[100vh] bg-[#161513] max-[375px]:h-[100vh] ">
-                <div className="mx-auto text-center mt-[1] max-[750px]:mt-[25rem]">
-                    <div className="mx-auto mb-[1rem] sm:mb-[0rem] mt-12 sm:mt-20 h-[14rem] sm:h-[16rem] w-[14rem] sm:w-[16rem] overflow-hidden rounded-full bg-gradient-to-tr bg-blue-900">
-                        <img src="/iconLr1.png" alt="" className="h-[110%] w-[101%] object-cover" />
+            <div className="flex flex-col justify-center items-center min-h-screen bg-[#161513]">
+                <div className="mx-auto text-center mt-6 sm:mt-12">
+                    <div className="mx-auto mb-6 sm:mb-8 h-[12rem] sm:h-[14rem] w-[12rem] sm:w-[14rem] overflow-hidden rounded-full bg-gradient-to-tr from-[#6c63ff] to-[#6c63ff]">
+                        <img src="/iconLr1.png" alt="" className="h-full w-auto object-cover" />
                     </div>
-                    <br />
-                    <h1 className="max-w-screen-sm text-[1.72rem] sm:text-5xl font-extrabold text-white mb-4 sm:mb-8">
-                        Hola soy Luis <br />Rodrigo <br className="hidden sm:inline" /> <br />
-                        Frontend <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#6c63ff] to-[#6c63ff]">Developer</span>
+                    <h1 className="max-w-screen-md text-[2rem] sm:text-4xl lg:text-5xl font-extrabold text-white mb-4 sm:mb-6">
+                        Hola soy Luis <br />Rodrigo <br className="hidden sm:inline" />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#6c63ff] to-[#6c63ff]">Frontend Developer</span>
                     </h1>
-                    <p className="mx-[2rem] mt-4 sm:mt-7 mb-8 sm:mb-11 text-base sm:text-lg font-light text-[#C5C5C5] max-w-lg">
-                        Hola mi nombre es Luis Rodrigo tengo 17 años de edad actualmente curso mi tercer y ultimo año de educacion media
-                        en el centro educativo tecnico laboral Kinal soy un joven apacionado por la tecnologia, es de mas mencionar de que yo
-                        desarrolle este pequeño proyecto con ayuda de varias tecnologias y frameworks como React, JavaScript, Tailwind y GitHub.
+                    <p className="mx-[1.5rem] sm:mx-[3rem] mt-4 sm:mt-6 mb-6 text-sm sm:text-lg font-light text-[#C5C5C5] max-w-2xl">
+                        Hola, mi nombre es Luis Rodrigo. Tengo 17 años y curso mi último año de educación media en el Centro Educativo Técnico Laboral Kinal. Soy un apasionado por la tecnología, y desarrollé este pequeño proyecto utilizando tecnologías como React, JavaScript, Tailwind y GitHub.
                     </p>
-                    <br />
                     <div className="text-center">
                         <a href="https://www.linkedin.com/in/luis-vaquin-644605245/" download={"Mi CV-Luis"}>
-                            <button className="inline-block px-6 py-3 mr-4 sm:mr-8 bg-[#6c63ff] rounded-full font-semibold text-lg sm:text-xl text-white">Ver mi perfil</button>
+                            <button className="inline-block px-8 py-4 bg-[#6c63ff] rounded-full font-semibold text-base sm:text-lg text-white hover:bg-[#5a54f2]">
+                                Ver mi perfil
+                            </button>
                         </a>
                     </div>
                 </div>
             </div>
-            <div className="flex items-end justify-end fixed bottom-5 right-0 mb-4 mr-4 z-10">
+            <div className="flex items-end justify-end fixed bottom-5 right-5 z-10">
                 <div>
                     <a
                         title="Buy me a beer"
                         href="https://www.instagram.com/luis_roodrigoo/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block w-[4rem] h-[4rem] rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
+                        className="block w-[3.5rem] h-[3.5rem] sm:w-[4rem] sm:h-[4rem] lg:w-[5rem] lg:h-[5rem] rounded-full transition-transform transform hover:scale-110 hover:rotate-12"
                     >
                         <img
                             className="object-cover object-center w-full h-full rounded-full"
@@ -53,4 +51,4 @@ const HomePage = () => {
     );
 }
 
-export default HomePage
+export default HomePage;
