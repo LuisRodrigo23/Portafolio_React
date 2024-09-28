@@ -10,7 +10,7 @@ const HomePage = () => {
             <div className="flex flex-col justify-center items-center h-[100vh] bg-[#161513] max-[375px]:h-[100vh] ">
                 <div className="mx-auto text-center mt-[1] max-[750px]:mt-[25rem]">
                     <div className="mx-auto mb-[1rem] sm:mb-[0rem] mt-12 sm:mt-20 h-[14rem] sm:h-[16rem] w-[14rem] sm:w-[16rem] overflow-hidden rounded-full bg-gradient-to-tr bg-blue-900">
-                        <img src="/imgFondEss-removebg.png" alt="" className="h-[110%] w-[101%] object-cover" />
+                        <img src="/iconLr1.png" alt="" className="h-[110%] w-[101%] object-cover" />
                     </div>
                     <br />
                     <h1 className="max-w-screen-sm text-[1.72rem] sm:text-5xl font-extrabold text-white mb-4 sm:mb-8">
