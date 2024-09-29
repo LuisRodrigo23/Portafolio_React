@@ -10,14 +10,15 @@ const HomePage = () => {
             <div className="flex flex-col justify-center items-center min-h-screen bg-[#161513]">
                 <div className="mx-auto text-center mt-6 sm:mt-12">
                     <div className="mx-auto mb-6 sm:mb-8 h-[12rem] sm:h-[14rem] w-[12rem] sm:w-[14rem] overflow-hidden rounded-full bg-gradient-to-tr from-[#6c63ff] to-[#6c63ff]">
-                        <img src="/iconLr1.png" alt="" className="h-full w-auto object-cover" />
+                        <img src="/iconLr1.png" alt="" className="h-full w-[100%] object-cover" />
                     </div>
                     <h1 className="max-w-screen-md text-[2rem] sm:text-4xl lg:text-5xl font-extrabold text-white mb-4 sm:mb-6">
                         Hola soy Luis <br />Rodrigo <br className="hidden sm:inline" />
                         <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#6c63ff] to-[#6c63ff]">Frontend Developer</span>
                     </h1>
                     <p className="mx-[1.5rem] sm:mx-[3rem] mt-4 sm:mt-6 mb-6 text-sm sm:text-lg font-light text-[#C5C5C5] max-w-2xl">
-                        Hola, mi nombre es Luis Rodrigo. Tengo 17 años y curso mi último año de educación media en el Centro Educativo Técnico Laboral Kinal. Soy un apasionado por la tecnología, y desarrollé este pequeño proyecto utilizando tecnologías como React, JavaScript, Tailwind y GitHub.
+                        Hola, mi nombre es Luis Rodrigo. Tengo 17 años y curso mi último año de educación media en el Centro Educativo Técnico Laboral Kinal. Soy un apasionado por la tecnología,
+                        y desarrollé este pequeño proyecto utilizando tecnologías como React, JavaScript, Tailwind y GitHub.
                     </p>
                     <div className="text-center">
                         <a href="https://www.linkedin.com/in/luis-vaquin-644605245/" download={"Mi CV-Luis"}>

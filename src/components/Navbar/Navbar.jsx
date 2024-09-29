@@ -4,24 +4,18 @@ import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import React from 'react';
 import Divider from '@mui/material/Divider';
-import { List, ListItem, ListItemButton, ListItemText } from '@mui/material'; // Eliminada duplicación de Divider
-import Box from '@mui/material/Box';
-import CssBaseline from '@mui/material/CssBaseline'; // Agregadas las importaciones faltantes
-import AppBar from '@mui/material/AppBar';
-import IconButton from '@mui/material/IconButton';
+import { List, ListItem, ListItemButton, ListItemText, Box, CssBaseline, AppBar, IconButton, Drawer } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import Drawer from '@mui/material/Drawer';
-import handleNavbarScroll from "./srollHandler"
+import handleNavbarScroll from "./srollHandler.js";
 
 const drawerWidth = 240;
 const navItems = [
-    { label: 'Home', path: '/' },
-    { label: 'DataLab', path: '/' },
-    { label: 'Proyects', path: '/' },
-    { label: 'Goo', path: '/' },
-    { label: 'Goo Admin', path: '/' },
-    { label: 'Nc Delicias', path: '/' }
-
+    { label: 'Home', path: '/', style: '' },
+    { label: 'DataLab', path: 'https://datalabprensalibre.com/', style: 'text-purple-500' },
+    { label: 'Projects', path: '/', style: '' },
+    { label: 'Goo', path: '/', style: 'text-green-600' },
+    { label: 'Goo Admin', path: '/', style: 'text-blue-900' },
+    { label: 'Nc Delicias', path: '/', style: '' },
 ];
 
 function NavbarAb(props) {
@@ -34,7 +28,7 @@ function NavbarAb(props) {
     };
 
     React.useEffect(() => {
-        const cleanup = handleNavbarScroll(setNavBackground); // Usar la lógica del scroll
+        const cleanup = handleNavbarScroll(setNavBackground);
         return cleanup;
     }, []);
 
@@ -48,7 +42,7 @@ function NavbarAb(props) {
                 {navItems.map((item) => (
                     <ListItem key={item.label} disablePadding>
                         <ListItemButton component={Link} to={item.path} sx={{ textAlign: 'center' }}>
-                            <ListItemText primary={item.label} sx={{ fontSize: '40px' }} />
+                            <ListItemText primary={item.label} className={item.style} sx={{ fontSize: '40px' }} />
                         </ListItemButton>
                     </ListItem>
                 ))}
@@ -59,7 +53,7 @@ function NavbarAb(props) {
     const container = window !== undefined ? () => window().document.body : undefined;
 
     return (
-        <Box sx={{ position: 'absolute' }}> {/* Corregido el uso de 'display' a 'position' */}
+        <Box sx={{ position: 'absolute' }}>
             <CssBaseline />
             <AppBar
                 component="nav"
@@ -97,6 +91,7 @@ function NavbarAb(props) {
                                 key={item.label}
                                 component={Link}
                                 to={item.path}
+                                className={item.style}
                                 sx={{ color: navBackground === 'transparent' ? '#fff' : '#000' }}
                             >
                                 {item.label}
