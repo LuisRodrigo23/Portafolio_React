@@ -6,13 +6,13 @@ const Cards = () => {
     const cards = [
         {
             img: ["https://www.mytaskpanel.com/wp-content/uploads/2023/04/consulting-blog-09.webp"],
-            name: "Calculadora Grafica-Java",
+            name: "CalcGrafica-Java",
             description: "Este pequeño proyecto es  una pequeña calculadora con una interfaz amigable y sencilla desarrollada con JavaFxml fue uno de los primeros proyectos que realize",
             url: "https://github.com/LuisRodrigo23/CalculadoraGrafica/tree/main/CalculadoraGrafica_2022300"
         },
         {
             img: ["https://bambu-mobile.com/wp-content/uploads/2022/07/Tipos-de-datos-MySQL-datos-que-almacenan-los-gestores-de-bases-de-datos-datos-numericos-fechas-Bambu-Mobile.png"],
-            name: "Tonys Kinal-MySQL-Java",
+            name: "TonysK MySQL-Java",
             description: "Este proyecto se basa en un sistema de control en ventas de comida donde puedo considerar un gran trabajo la base de datos mi utilizando en  mi caso una Db relacional como en este caso MySQL",
             url: "https://github.com/LuisRodrigo23/TonysKinalApllicacion.git"
         }, {

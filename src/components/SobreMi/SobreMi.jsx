@@ -5,8 +5,7 @@ import Footer from '../Footer/Footer';
 function SobreMi() {
     return (
         <>
-            <br />
-            <br /><section className="bg-white dark:bg-[#161513] mb-[65px]">
+            <br /><section className="bg-white dark:bg-[#161513]">
                 <br />
                 <section className="">
                     <div className="container mx-auto">

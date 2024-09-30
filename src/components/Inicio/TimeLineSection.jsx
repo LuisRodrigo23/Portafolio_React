@@ -1,42 +1,183 @@
-import React from 'react'
+import React from 'react';
+import { Tecnologias } from '../Proyects/Tecnologias';
 
 export const TimeLineSection = () => {
     return (
-        <div className='mx-[2rem]'>
-            <ol class="relative border-s border-gray-200 dark:border-gray-700">
-                <li class="mb-10 ms-6">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                        <img class="rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image" />
+        <> <div className='mx-[2rem]'>
+            <ol className="relative border-l border-gray-200 dark:border-gray-700 mt-[1.5rem]">
+                <li className="ml-6">
+                    <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -left-3">
+                        <img
+                            className="rounded-full w-10 h-10 object-cover shadow-lg"
+                            src="https://static.cdnlogo.com/logos/c/21/cisco-systems.png"
+                            alt="Jese Leos image"
+                        />
                     </span>
-                    <div class="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:bg-gray-700 dark:border-gray-600">
-                        <time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">just now</time>
-                        <div class="text-sm font-normal text-gray-500 dark:text-gray-300">Bonnie moved <a href="#" class="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Jese Leos</a> to <span class="bg-gray-100 text-gray-800 text-xs font-normal me-2 px-2.5 py-0.5 rounded dark:bg-gray-600 dark:text-gray-300">Funny Group</span></div>
-                    </div>
-                </li>
-                <li class="mb-10 ms-6">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                        <img class="rounded-full shadow-lg" src="/docs/images/people/profile-picture-5.jpg" alt="Thomas Lean image" />
-                    </span>
-                    <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
-                        <div class="items-center justify-between mb-3 sm:flex">
-                            <time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">2 hours ago</time>
-                            <div class="text-sm font-normal text-gray-500 lex dark:text-gray-300">Thomas Lean commented on  <a href="#" class="font-semibold text-gray-900 dark:text-white hover:underline">Flowbite Pro</a></div>
+                    <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                        <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Mayo 2022</time>
+                        <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
+                            Certification <a href="#" className="font-semibold text-blue-600 dark:text-blue-500 hover:underline">CCN1</a> task status to <span className="font-semibold text-gray-900 dark:text-white">Finished</span>
                         </div>
-                        <div class="p-3 text-xs italic font-normal text-gray-500 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-600 dark:border-gray-500 dark:text-gray-300">Hi ya'll! I wanted to share a webinar zeroheight is having regarding how to best measure your design system! This is the second session of our new webinar series on #DesignSystems discussions where we'll be speaking about Measurement.</div>
                     </div>
                 </li>
-                <li class="ms-6">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                        <img class="rounded-full shadow-lg" src="/docs/images/people/profile-picture-1.jpg" alt="Jese Leos image" />
+
+                <li className="ml-6">
+                    <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -left-3">
+                        <img
+                            className="rounded-full w-10 h-10 object-cover shadow-lg"
+                            src="https://static.cdnlogo.com/logos/c/21/cisco-systems.png"
+                            alt="Jese Leos image"
+                        />
                     </span>
-                    <div class="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:bg-gray-700 dark:border-gray-600">
-                        <time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">1 day ago</time>
-                        <div class="text-sm font-normal text-gray-500 lex dark:text-gray-300">Jese Leos has changed <a href="#" class="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Pricing page</a> task status to  <span class="font-semibold text-gray-900 dark:text-white">Finished</span></div>
+                    <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                        <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Agosto 2022</time>
+                        <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
+                            Certificacion <a href="#" className="font-semibold text-blue-600 dark:text-blue-500 hover:underline">CCN2</a> task status to <span className="font-semibold text-gray-900 dark:text-white">Finished</span>
+                        </div>
+                    </div>
+                </li>
+                <li className="ml-6">
+                    <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -left-3">
+                        <img
+                            className="rounded-full w-10 h-10 object-cover shadow-lg"
+                            src="https://play-lh.googleusercontent.com/QxUOL7gnvHHBxc82fHVOwskMLxoRuW5jkMamUguazz0biRRSBQM7NA2a9oXZUKedDEY=w3840-h2160-rw"
+                            alt="Jese Leos image"
+                        />
+                    </span>
+                    <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                        <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Diciembre 2022</time>
+                        <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
+                            Certification <a href="#" className="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Ciber Segurity</a> task status to <span className="font-semibold text-gray-900 dark:text-white">Finished</span>
+                        </div>
+                    </div>
+                </li>
+                <br />
+                <li className="ml-6">
+                    <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -left-3">
+                        <img
+                            className="rounded-full w-10 h-10 object-cover shadow-lg"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVG_HccNxHFXbMNio1X9vuZwKxpZcWf4b-tg&s"
+                            alt="Jese Leos image"
+                        />
+                    </span>
+                    <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                        <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Junio 2023</time>
+                        <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
+                            Certification <a href="#" className="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Ciber Segurity</a> task status to <span className="font-semibold text-gray-900 dark:text-white">Finished</span>
+                        </div>
+                    </div>
+                </li>
+                <li className="ml-6">
+                    <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -left-3">
+                        <img
+                            className="rounded-full w-10 h-10 object-cover shadow-lg"
+                            src="https://www.prensalibre.com/wp-content/uploads/2018/11/RCH-app-logo.jpg?quality=52&w=1200"
+                            alt="Jese Leos image"
+                        />
+                    </span>
+                    <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                        <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Agosto 2023</time>
+                        <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
+                            Jese Leos has changed <a href="#" className="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Pricing page</a> task status to <span className="font-semibold text-gray-900 dark:text-white">Finished</span>
+                        </div>
+                    </div>
+                </li>
+                <br /> <li className="ml-6">
+                    <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -left-3">
+                        <img
+                            className="rounded-full w-10 h-10 object-cover shadow-lg"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0oFFDIhWtgmgRU8l2aMVhpSELtHhv51Ea6Q&s"
+                            alt="Jese Leos image"
+                        />
+                    </span>
+                    <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                        <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Marzo 2024</time>
+                        <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
+                            Jese Leos has changed <a href="#" className="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Pricing page</a> task status to <span className="font-semibold text-gray-900 dark:text-white">Finished</span>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li className="ml-6">
+                    <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -left-3">
+                        <img
+                            className="rounded-full w-10 h-10 object-cover shadow-lg"
+                            src="/imgTallerElmaster.jpg"
+                            alt="Jese Leos image"
+                        />
+                    </span>
+                    <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                        <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Mayo</time>
+                        <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
+                            Jese Leos has changed <a href="#" className="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Pricing page</a> task status to <span className="font-semibold text-gray-900 dark:text-white">Finished</span>
+                        </div>
+                    </div>
+                </li> <li className="ml-6">
+                    <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -left-3">
+                        <img
+                            className="rounded-full w-10 h-10 object-cover shadow-lg"
+                            src="https://ceur.usac.edu.gt/imagen/usac.gif"
+                            alt="Jese Leos image"
+                        />
+                    </span>
+                    <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                        <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Agosto 2023</time>
+                        <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
+                            Jese Leos has changed <a href="#" className="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Pricing page</a> task status to <span className="font-semibold text-gray-900 dark:text-white">Finished</span>
+                        </div>
+                    </div>
+                </li>
+                <li className="ml-6">
+                    <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -left-3">
+                        <img
+                            className="rounded-full w-10 h-10 object-cover shadow-lg"
+                            src="https://datalabprensalibre.com/wp-content/uploads/2024/05/ICONO-DATALAB-1-1.jpg"
+                            alt="Jese Leos image"
+                        />
+                    </span>
+                    <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                        <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Agosto 2023</time>
+                        <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
+                            Jese Leos has changed <a href="#" className="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Pricing page</a> task status to <span className="font-semibold text-gray-900 dark:text-white">Finished</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="ml-6">
+                    <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -left-3">
+                        <img
+                            className="rounded-full w-10 h-10 object-cover shadow-lg"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Escudo_de_la_universidad_Mariano_G%C3%A1lvez_Guatemala.svg/800px-Escudo_de_la_universidad_Mariano_G%C3%A1lvez_Guatemala.svg.png"
+                            alt="Jese Leos image"
+                        />
+                    </span>
+                    <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                        <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Agosto 2023</time>
+                        <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
+                            Jese Leos has changed <a href="#" className="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Pricing page</a> task status to <span className="font-semibold text-gray-900 dark:text-white">Finished</span>
+                        </div>
+                    </div>
+                </li> <li className="ml-6">
+                    <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -left-3">
+                        <img
+                            className="rounded-full w-10 h-10 object-cover shadow-lg"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk3obdtPWWYlxh6qvivw3c5yNM6fqdc3s78Q&s"
+                            alt="Jese Leos image"
+                        />
+                    </span>
+                    <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                        <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Agosto 2023</time>
+                        <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
+                            Jese Leos has changed <a href="#" className="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Pricing page</a> task status to <span className="font-semibold text-gray-900 dark:text-white">Finished</span>
+                        </div>
                     </div>
                 </li>
             </ol>
+            <br />
         </div>
+            <Tecnologias />
+        </>
 
-
-    )
+    );
 }

@@ -1,5 +1,5 @@
-import Footer from "../Footer/Footer";
 import SectionPost from "./SectionPost";
+import "../../page/HomePage.css";
 
 const About = () => {
     return (
@@ -15,9 +15,9 @@ const About = () => {
                         </p>
 
                     </div>
-                    <div className="mt-5" id="">
+                    <div className="mt-[1rem] max-[1000px]:mt-[-5rem]" id="">
                         <img className="w-[auto] h-[auto] rounded-md mx-[auto] my-[auto]
-                         max-[650px]:my-[5rem]" src="/dev2.svg" alt="Graphic Design" id="routeProyects" />
+                         max-[650px]:my-[5rem] animate-wave" src="/dev2.svg" alt="Graphic Design" id="routeProyects" />
                     </div>
                 </div>
             </div>

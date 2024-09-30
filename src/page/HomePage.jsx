@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import About from "../components/Inicio/About";
 import Proyectos from "../components/Proyects/Proyectos";
 import "../components/StyleTransition.css";
@@ -5,6 +6,9 @@ import NavbarAb from "../components/Navbar/Navbar";
 import "../page/HomePage.css";
 
 const HomePage = () => {
+    // useEffect para forzar el scroll al principio en cada carga
+
+
     return (
         <>
             <NavbarAb />
@@ -22,13 +26,6 @@ const HomePage = () => {
                     <p className="mx-[1.5rem] sm:mx-[3rem] mt-4 sm:mt-6 mb-6 text-sm sm:text-lg font-light text-[#C5C5C5] max-w-2xl">
                         Desde pequeño, siempre he sentido una gran fascinación por entender cómo funcionan las cosas a mi alrededor, en un sentido literal.
                     </p>
-                    <div className="text-center">
-                        <a href="https://www.linkedin.com/in/luis-vaquin-644605245/" download={"Mi CV-Luis"}>
-                            <button className="inline-block px-8 py-4 bg-[#6c63ff] rounded-full font-semibold text-base sm:text-lg text-white hover:bg-[#5a54f2]">
-                                Ver mi perfil
-                            </button>
-                        </a>
-                    </div>
                 </div>
             </div>
             <div className="flex items-end justify-end fixed bottom-5 right-5 z-10">
@@ -52,6 +49,6 @@ const HomePage = () => {
             <Proyectos />
         </>
     );
-}
+};
 
 export default HomePage;
